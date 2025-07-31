@@ -1,0 +1,37 @@
+{
+  "name": "geolearner",
+  "version": "1.0.0",
+  "description": "Interactive geography learning application using REST Countries API",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "serve public -l 8080 -s",
+    "dev": "serve public -l 3000 -s",
+    "build": "echo 'No build step required for static app'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "geography",
+    "education",
+    "countries",
+    "flags",
+    "learning",
+    "quiz"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "docker": "^1.0.0",
+    "serve": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kimanzialu/GeoLearner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimanzialu/geolearner/issues"
+  },
+  "homepage": "https://github.com/kimanzialu/geolearner#readme"
+}
